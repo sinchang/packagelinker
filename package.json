@@ -2,7 +2,7 @@
   "name": "packagelinker",
   "displayName": "packagelinker",
   "description": "quickly find the GitHub url of the npm package",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "sinchang",
   "repository": "https://github.com/sinchang/packagelinker",
   "engines": {

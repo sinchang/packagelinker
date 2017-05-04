@@ -12,13 +12,13 @@ export function activate(context: vscode.ExtensionContext) {
         }
         var selection = editor.selection;
         var text = editor.document.getText(selection);
-        axios.get(`https://api.npms.io/v2/search?q=${text}`)
+        axios.get(`https://api.npms.io/v2/package/${text}`)
             .then(function (res) {
-                if (!res.data.results.length) {
-                    vscode.window.showInformationMessage('Not Found');
+                if (res.data.code === 'NOT_FOUND') {
+                    vscode.window.showInformationMessage('Module not found');
                     return;
                 }
-                var urls = res.data.results[0].package.links;
+                var urls = res.data.collected.metadata.links;
                 var url = urls.repository || urls.npm || urls.homepage;
                 opn(url);
             })

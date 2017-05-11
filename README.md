@@ -2,6 +2,9 @@
 
 > quickly find the GitHub url of the npm package in VS Code.
 
+[![](https://vsmarketplacebadge.apphb.com/version-short/sinchang.packagelinker.svg)](https://marketplace.visualstudio.com/items?itemName=sinchang.packagelinker)
+[![](https://vsmarketplacebadge.apphb.com/installs-short/sinchang.packagelinker.svg)](https://marketplace.visualstudio.com/items?itemName=sinchang.packagelinker)
+
 ## Screenshot
 
 ![demo.gif](https://ooo.0o0.ooo/2017/05/03/5909defba288a.gif)

@@ -1,8 +1,8 @@
 {
   "name": "packagelinker",
   "displayName": "packagelinker",
-  "description": "quickly find the GitHub url of the npm package",
-  "version": "0.0.3",
+  "description": "quickly find the GitHub URL of the package",
+  "version": "0.0.4",
   "publisher": "sinchang",
   "repository": "https://github.com/sinchang/packagelinker",
   "engines": {
@@ -11,9 +11,7 @@
   "categories": [
     "Other"
   ],
-  "keywords": [
-    "npm", "github", "browser", "package"
-  ],
+  "keywords": ["github", "PHP", "Python", "Ruby", "Node"],
   "activationEvents": [
     "onCommand:extension.goToGitHub"
   ],

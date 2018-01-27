@@ -1,6 +1,6 @@
 # packagelinker
 
-> quickly find the GitHub url of the npm package in VS Code.
+> quickly find the GitHub URL of the package in VS Code. support Node、Ruby、Python、PHP.
 
 [![](https://vsmarketplacebadge.apphb.com/version-short/sinchang.packagelinker.svg)](https://marketplace.visualstudio.com/items?itemName=sinchang.packagelinker)
 [![](https://vsmarketplacebadge.apphb.com/installs-short/sinchang.packagelinker.svg)](https://marketplace.visualstudio.com/items?itemName=sinchang.packagelinker)
@@ -9,6 +9,13 @@
 
 ![demo.gif](https://ooo.0o0.ooo/2017/05/03/5909defba288a.gif)
 
+## Changelog
+
+- v0.0.4: new support search Ruby、Python、PHP package.
+
+## Thanks
+
+- [OctoLinker API](https://github.com/OctoLinker/live-resolver)
 
 ## Author
 

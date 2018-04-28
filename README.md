@@ -12,6 +12,7 @@
 ## Changelog
 
 - v0.0.4: new support search Ruby、Python、PHP package.
+- v0.0.5: fix a [bug](https://github.com/sinchang/packagelinker/issues/3) by [kurtextrem](https://github.com/kurtextrem)
 
 ## Thanks
 

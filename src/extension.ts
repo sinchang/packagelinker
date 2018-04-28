@@ -29,7 +29,10 @@ export function activate(context: vscode.ExtensionContext) {
     const selection = editor.selection
     const text = editor.document.getText(selection)
     const currentlyOpenTabfilePath = editor.document.fileName
-    const currentFileName = currentlyOpenTabfilePath.split('/')[currentlyOpenTabfilePath.split('/').length - 1]
+    let split = currentlyOpenTabfilePath.split('/')
+		if (split[0] === currentlyOpenTabfilePath) // Windows
+			split = currentlyOpenTabfilePath.split('\\')
+		const currentFileName = split[split.length - 1]
 
     let registry = ''
 

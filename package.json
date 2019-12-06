@@ -2,7 +2,7 @@
   "name": "packagelinker",
   "displayName": "packagelinker",
   "description": "quickly find the GitHub URL of the package",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "publisher": "sinchang",
   "repository": "https://github.com/sinchang/packagelinker",
   "engines": {

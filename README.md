@@ -7,7 +7,7 @@
 
 ## Screenshot
 
-![demo.gif](https://ooo.0o0.ooo/2017/05/03/5909defba288a.gif)
+![demo.gif](./assets/demo.gif)
 
 ## Changelog
 

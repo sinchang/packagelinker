@@ -11,22 +11,32 @@
   "categories": [
     "Other"
   ],
-  "keywords": ["github", "PHP", "Python", "Ruby", "Node"],
+  "keywords": [
+    "github",
+    "PHP",
+    "Python",
+    "Ruby",
+    "Node"
+  ],
   "activationEvents": [
     "onCommand:extension.goToGitHub"
   ],
   "main": "./out/src/extension",
   "contributes": {
-    "commands": [{
-      "command": "extension.goToGitHub",
-      "title": "Go to GitHub"
-    }],
-    "menus": {
-      "editor/context": [{
-        "when": "",
+    "commands": [
+      {
         "command": "extension.goToGitHub",
-        "group": "navigation"
-      }]
+        "title": "Go to GitHub"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "when": "",
+          "command": "extension.goToGitHub",
+          "group": "navigation"
+        }
+      ]
     }
   },
   "scripts": {
@@ -36,14 +46,14 @@
     "test": "node ./node_modules/vscode/bin/test"
   },
   "devDependencies": {
-    "@types/mocha": "^2.2.32",
-    "@types/node": "^6.0.40",
-    "mocha": "^2.3.3",
-    "typescript": "^2.0.3",
-    "vscode": "^1.1.0"
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.12.14",
+    "mocha": "^6.2.2",
+    "typescript": "^3.7.3",
+    "vscode": "^1.1.36"
   },
   "dependencies": {
-    "axios": "^0.16.1",
-    "opn": "^5.0.0"
+    "axios": "^0.19.0",
+    "opn": "^6.0.0"
   }
 }

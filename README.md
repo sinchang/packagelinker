@@ -1,9 +1,9 @@
 # packagelinker
 
-> quickly find the GitHub URL of the package in VS Code. support Node、Ruby、Python、PHP.
+> Quickly find the GitHub URL of the package in VS Code. support Node、Ruby、Python、PHP.
 
-[![](https://vsmarketplacebadge.apphb.com/version-short/sinchang.packagelinker.svg)](https://marketplace.visualstudio.com/items?itemName=sinchang.packagelinker)
-[![](https://vsmarketplacebadge.apphb.com/installs-short/sinchang.packagelinker.svg)](https://marketplace.visualstudio.com/items?itemName=sinchang.packagelinker)
+[![](https://vsmarketplacebadges.dev/version-short/sinchang.packagelinker.svg)](https://marketplace.visualstudio.com/items?itemName=sinchang.packagelinker)
+[![](https://vsmarketplacebadges.dev/installs-short/sinchang.packagelinker.svg)](https://marketplace.visualstudio.com/items?itemName=sinchang.packagelinker)
 
 ## Screenshot
 
